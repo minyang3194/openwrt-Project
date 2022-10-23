@@ -16,7 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Add a feed source
 sed -i '$a src-git nas https://github.com/linkease/nas-packages.git;master' feeds.conf.default
 sed -i '$a src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' feeds.conf.default
-# sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
@@ -34,4 +34,4 @@ git clone https://github.com/linkease/istore-ui.git package/istore-ui
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2 package/redsocks2
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
+svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
