@@ -17,9 +17,10 @@ curl -fsSL https://raw.githubusercontent.com/coolsnowwolf/luci/master/applicatio
 curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yaml > ./package/openwrt-mos/luci-app-mosdns/root/etc/mosdns/cus_config.yaml
 # Modify default IP
 # sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
-sed -i 's/bootstrap/argon/g' ./feeds/luci/modules/luci-base/root/etc/config/luci
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 rm -rf ./package/diy-ziyong/theme
+rm -rf ./package/diy-ziyong/luci-app-wrtbwmon
+rm -rf ./package/diy-ziyong/wrtbwmon
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/luci/themes/luci-theme-argon
 rm -rf ./feeds/packages/net/adguardhome
