@@ -20,7 +20,7 @@ sed -i 's/192.168.1.1/192.168.2.99/g' package/base-files/files/bin/config_genera
 
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
 rm -rf ./package/diy-ziyong/theme
-rm -rf ./package/diy-ziyong/luci-app-wrtbwmon
+rm -rf ./package/diy-ziyong/luci-app-wrtbwmon-zh
 rm -rf ./package/diy-ziyong/wrtbwmon
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/packages/net/adguardhome
