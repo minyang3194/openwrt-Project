@@ -46,6 +46,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
+        sudo -E apt-get -qq update
         sudo bash -c 'bash <(curl -s https://github.com/firkerword/openwrt-list/raw/master/lienol1907)'
         sudo -E apt-get -qq autoremove --purge
         sudo -E apt-get -qq clean
@@ -189,5 +190,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
     - name: TG推送
-      run: curl "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=恭喜主人X86-lienol1907固件编译完成！%0A编译时间：${{ env.DATE }}%0A下载地址：https://github.com/firkerword/openwrt-Exclusive/releases/tag/${{ env.TAG_TIME }}"
+      run: curl "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=恭喜主人X86-lienol1907固件编译完成！%0A编译时间：${{ env.DATE }}%0A下载地址：https://github.com/firkerword/openwrt-Project/releases/tag/${{ env.TAG_TIME }}"
 

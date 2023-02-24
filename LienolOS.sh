@@ -29,6 +29,8 @@ git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
 git clone https://github.com/firkerword/luci-app-lucky.git package/lucky

@@ -27,6 +27,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/istore-ui.git package/istore-ui
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
