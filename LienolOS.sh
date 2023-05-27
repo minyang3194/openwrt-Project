@@ -42,3 +42,6 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-wrtbwmon package/luci-app-wrtbwmon
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/wrtbwmon package/wrtbwmon
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-advanced package/luci-app-advanced
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-diskman package/luci-app-diskman
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vlmcsd package/luci-app-vlmcsd
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/vlmcsd package/vlmcsd
