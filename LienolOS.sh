@@ -39,5 +39,6 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 # svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2 package/redsocks2
 # svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt package/aliyundrive-webdav
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-wrtbwmon package/luci-app-wrtbwmon
-svn co https://github.com/kiddin9/openwrt-packages/trunk/wrtbwmon package/wrtbwmon
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-wrtbwmon package/luci-app-wrtbwmon
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/wrtbwmon package/wrtbwmon
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-advanced package/luci-app-advanced
