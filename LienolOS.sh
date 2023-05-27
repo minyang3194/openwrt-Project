@@ -45,3 +45,4 @@ svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-advanced
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-diskman package/luci-app-diskman
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vlmcsd package/luci-app-vlmcsd
 svn co https://github.com/kiddin9/openwrt-packages/tree/master/vlmcsd package/vlmcsd
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-socat package/luci-app-socat
